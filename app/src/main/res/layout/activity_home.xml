@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home">
+
+   <LinearLayout
+       android:id="@+id/lott"
+       android:gravity="center"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="330dp"
+          android:src="@drawable/main_page">
+      </ImageView>
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/maha_logo">
+         </ImageView>
+
+      <LinearLayout
+          android:layout_width="370dp"
+          android:layout_height="320dp"
+          android:background="@drawable/roundbutton"
+          android:layout_marginBottom="30dp"
+          android:orientation="vertical">
+
+         <TextView
+             android:layout_marginLeft="30dp"
+             android:layout_marginTop="20dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/round"
+             android:textSize="20dp"
+             android:padding="5dp"
+             android:textColor="#4297CB"
+             android:fontFamily="@font/regular"
+             android:text=" Login to continue ">
+
+         </TextView>
+
+         <LinearLayout
+             android:layout_marginTop="20dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:gravity="center"
+             >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:src="@drawable/email">
+
+            </ImageView>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="270dp"
+                android:adjustViewBounds="true"
+                android:layout_height="wrap_content"
+                android:hint="enter email"
+                android:padding="10dp"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:background="@drawable/round_edittext">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_marginTop="10dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:gravity="center"
+             >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:src="@drawable/padlock">
+            </ImageView>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="270dp"
+                android:adjustViewBounds="true"
+                android:layout_height="wrap_content"
+                android:hint="enter password"
+                android:padding="10dp"
+                app:passwordToggleEnabled="true"
+                android:inputType="textPassword"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:background="@drawable/round_edittext">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+         </LinearLayout>
+
+
+         <LinearLayout
+             android:layout_marginTop="30dp"
+             android:layout_marginLeft="80dp"
+             android:layout_width="600dp"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="118dp"
+                android:layout_height="34dp"
+                android:background="@drawable/round_login"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+               <ImageView
+                   android:layout_width="39dp"
+                   android:layout_height="30dp"
+                   android:adjustViewBounds="true"
+                   android:src="@drawable/login"></ImageView>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="login"
+                   android:textColor="#000"
+                   android:textSize="25dp"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="130dp"
+                android:layout_height="34dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/round_login"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+               <ImageView
+                   android:layout_width="53dp"
+                   android:layout_height="30dp"
+                   android:adjustViewBounds="true"
+                   android:src="@drawable/signup"></ImageView>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="signup"
+                   android:textColor="#000"
+                   android:textSize="25dp"></TextView>
+
+            </LinearLayout>
+
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_marginLeft="20dp"
+             android:padding="9dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/round_unknown"
+             android:layout_marginTop="20dp">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:src="@drawable/unknown"></ImageView>
+
+            <TextView
+                android:id="@+id/id_login_unknown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue without login ?"
+                android:fontFamily="@font/bold"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF">
+            </TextView>
+
+         </LinearLayout>
+
+      </LinearLayout>
+
+
+
+   </LinearLayout>
+
+</ScrollView>

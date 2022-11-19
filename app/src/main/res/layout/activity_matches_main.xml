@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".matches_main">
+
+    <LinearLayout
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="53dp"
+            android:layout_height="64dp"
+            android:src="@drawable/matches">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:fontFamily="@font/bold"
+            android:text="MATCHES"
+            android:textSize="25dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/recent"
+        android:layout_width="230dp"
+        android:layout_height="76dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/round_for_main_matches"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="62dp"
+            android:layout_height="53dp"
+            android:src="@drawable/result"></ImageView>
+
+        <TextView
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="RECENT"
+            android:textSize="30dp"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/schedule"
+        android:layout_width="233dp"
+        android:layout_height="76dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/round_for_main_matches"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="62dp"
+            android:layout_height="58dp"
+            android:src="@drawable/schedule"></ImageView>
+
+        <TextView
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="SCHEDULE"
+            android:textSize="30dp"></TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

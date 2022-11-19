@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="53dp"
+                android:layout_height="64dp"
+                android:src="@drawable/home">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:fontFamily="@font/bold"
+                android:text="HOME"
+                android:textSize="25dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="welcome to the world of cricket !"
+                android:textSize="20dp"
+                android:textColor="@color/theme">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/theme"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btn_for_matches"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:fontFamily="@font/bowlby_one_sc"
+                android:gravity="center"
+                android:text="MATCHES"
+                android:textSize="30dp"></TextView>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/divide">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/btn_for_more"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/bowlby_one_sc"
+                android:gravity="center"
+                android:text="MORE"
+                android:textSize="30dp"></TextView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <HorizontalScrollView
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+                <RelativeLayout
+                    android:id="@+id/horizontalscroll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <!--                  starting 1-->
+                    <LinearLayout
+                        android:layout_width="270dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center"
+                        android:background="@drawable/round_recent_matches"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#eef4f9"
+                            android:textColor="@color/black"
+                            android:text="Final - ICC Mens T20 WorldCup 2022">
+
+                        </TextView>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="20dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            >
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/pcb"
+                                android:layout_marginLeft="20dp" >
+                            </ImageView>
+
+                            <TextView
+                                android:id="@+id/tog_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="137-8 (20)"
+                                android:textColor="#165A8F"
+                                android:layout_marginLeft="60dp">
+
+                            </TextView>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center"
+                            android:gravity="center" >
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/ecb"
+                                android:layout_marginLeft="20dp" >
+                            </ImageView>
+
+                            <TextView
+                                android:id="@+id/tog_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="138-5 (19)"
+                                android:textColor="#165A8F"
+                                android:layout_marginLeft="60dp">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#2A2C14"
+                            android:layout_marginLeft="5dp"
+                            android:text="England won by 5 wickets" >
+
+                        </TextView>
+
+                    </LinearLayout>
+
+
+                    <!--                starting 2-->
+                    <LinearLayout
+                        android:layout_width="270dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="325dp"
+                        android:gravity="center"
+                        android:background="@drawable/round_recent_matches"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#eef4f9"
+                            android:textColor="@color/black"
+                            android:text="semi-Final - ICC Mens T20 WorldCup 2022">
+
+                        </TextView>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="20dp"
+                            android:layout_gravity="center"
+                            android:gravity="center" >
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/bcci"
+                                android:layout_marginLeft="20dp" >
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="168-6 (20)"
+                                android:textColor="#165A8F"
+                                android:layout_marginLeft="60dp">
+
+                            </TextView>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center"
+                            android:gravity="center" >
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/ecb"
+                                android:layout_marginLeft="20dp" >
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="170-0 (16)"
+                                android:textColor="#165A8F"
+                                android:layout_marginLeft="60dp">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#2A2C14"
+
+                            android:layout_marginLeft="5dp"
+                            android:text="England won by 10 wickets" >
+
+                        </TextView>
+
+
+                    </LinearLayout>
+
+
+                    <!--                starting 3-->
+                    <LinearLayout
+                        android:layout_width="270dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="630dp"
+                        android:layout_marginRight="20dp"
+                        android:gravity="center"
+                        android:background="@drawable/round_recent_matches"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#eef4f9"
+                            android:textColor="@color/black"
+                            android:text="Semi-Final - ICC Mens T20 WorldCup 2022">
+
+                        </TextView>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="20dp"
+                            android:layout_gravity="center"
+                            android:gravity="center" >
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/nz"
+                                android:layout_marginLeft="20dp" >
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="152-4 (20)"
+                                android:textColor="#165A8F"
+                                android:layout_marginLeft="60dp">
+
+                            </TextView>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center"
+                            android:gravity="center" >
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/pcb"
+                                android:layout_marginLeft="20dp" >
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="153-3 (19.1)"
+                                android:textColor="#165A8F"
+                                android:layout_marginLeft="60dp">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#2A2C14"
+                            android:layout_marginLeft="5dp"
+                            android:text="Pakistan won by 7 wickets" >
+
+                        </TextView>
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+            </HorizontalScrollView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/theme">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bungee_inline"
+                android:layout_marginLeft="10dp"
+                android:text="recent updates"
+                android:textSize="20dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/theme"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INDIA TOUR OF NEW ZEALAND 2022"
+                android:textSize="20dp"
+                android:fontFamily="@font/bold"
+                android:layout_marginLeft="5dp">
+            </TextView>
+
+            <ImageView
+                android:id="@+id/img_articleONE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/india_washout"
+                android:adjustViewBounds="true"
+                >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/btn_for_articleONE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/theme"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:text="Rain threat looms large as new-look India hope to seize opportunity">
+
+
+            </TextView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/theme"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IPL 2023 RETENSIONS"
+                android:textSize="20dp"
+                android:fontFamily="@font/bold"
+                android:layout_marginLeft="5dp">
+            </TextView>
+
+            <ImageView
+                android:id="@+id/img_article1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bravo"
+                android:adjustViewBounds="true"
+                >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/btn_for_article"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/theme"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:text="So, all 10 franchises have revealed their retentions and releases. Now for the auction to plug some gaps and before you know it, IPL 2023 will be upon us! .....">
+
+
+            </TextView>
+
+
+        </LinearLayout>
+
+        <!--        2-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/theme"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ICC T20 WORLDCUP 2022"
+                android:textSize="20dp"
+                android:fontFamily="@font/bold"
+                android:layout_marginLeft="5dp">
+            </TextView>
+
+            <ImageView
+                android:id="@+id/img_article2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ben"
+                android:adjustViewBounds="true"
+                >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/btn_for_article2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/theme"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:text="Ben Stokes guides England to World Cup glory.England win their 2nd T20 world cup after an decade">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

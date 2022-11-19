@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/round_for_more_updates"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="17dp"
+        android:text="sdgfsghbutcydcvhbvguy ufc"
+        android:fontFamily="@font/bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints">
+
+    </TextView>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/title_image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/a"
+        android:background="@drawable/round_more"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/roundcorner">
+
+    </com.google.android.material.imageview.ShapeableImageView>
+
+    <TextView
+        android:textAlignment="center"
+        android:id="@+id/body"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="n to his spot.Lucknow Super Giants omit Holder, Lewis\n\nCaribbean duo of Evin Lewis and Jason Holder, Sri Lanka's Dushmantha Chameera and IPL first Indian centurion Manish Pandey are the biggest names among the omissions LSG "
+        android:textSize="20dp"
+        android:fontFamily="@font/regular"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints">
+
+    </TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="8dp"
+        android:background="#2A8EDD"
+        />
+
+</LinearLayout>

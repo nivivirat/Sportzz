@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".matches">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="53dp"
+                android:layout_height="64dp"
+                android:src="@drawable/matches">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:fontFamily="@font/bold"
+                android:text="RESULTS"
+                android:textSize="25dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="210dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbutton"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="10dp"
+                android:text="2nd ODI, ENGLAND TOUR OF AUSTRALIA"
+                android:textColor="@color/white"
+                android:textStyle="bold"></TextView>
+
+            <!--       1st (1)-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/white"
+                    android:padding="3dp"
+                    android:src="@drawable/ca"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:background="@color/white"
+                    android:padding="5dp"
+                    android:text="280-8 (2\50)"
+                    android:textColor="#165A8F" />
+
+            </LinearLayout>
+
+            <!--       1st(2)-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/white"
+                    android:padding="3dp"
+                    android:src="@drawable/ecb"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:background="@color/white"
+                    android:padding="5dp"
+                    android:text="208-10 (38.5)"
+                    android:textColor="#165A8F" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="0dp"
+                android:text="AUSTRALIA WON BY 72 RUNS"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:background="@drawable/round_result">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="210dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbutton"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="10dp"
+                android:text="FINALS - ICC MENS T20 WORLD CUP"
+                android:textColor="@color/white"
+                android:textStyle="bold"></TextView>
+
+            <!--       1st (1)-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/white"
+                    android:padding="3dp"
+                    android:src="@drawable/pcb"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:background="@color/white"
+                    android:padding="5dp"
+                    android:text="137-8 (20)"
+                    android:textColor="#165A8F" />
+
+            </LinearLayout>
+
+            <!--       1st(2)-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/white"
+                    android:padding="3dp"
+                    android:src="@drawable/ecb"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:background="@color/white"
+                    android:padding="5dp"
+                    android:text="138-5 (19.0)"
+                    android:textColor="#165A8F" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="0dp"
+                android:text="ENGLAND WON BY 10 WICKETS"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:background="@drawable/round_result">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="234dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbutton"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="10dp"
+
+                android:text="1st T20I, INDIA TOUR OF NEW ZEALAND"
+                android:textColor="@color/white"
+                android:textStyle="bold"></TextView>
+
+            <!--       1st (1)-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/white"
+                    android:padding="3dp"
+                    android:src="@drawable/bcci"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:background="@color/white"
+                    android:padding="5dp"
+                    android:text="             "
+                    android:textColor="#165A8F" />
+
+            </LinearLayout>
+
+            <!--       1st(2)-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/white"
+                    android:padding="3dp"
+                    android:src="@drawable/nz"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:background="@color/white"
+                    android:padding="5dp"
+                    android:text="             "
+                    android:textColor="#165A8F" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="291dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/round_result"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:text="MATCH ABANDONED WITHOUT A BALL BOWLED(NO TOSS)"
+                android:textColor="#000000">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="210dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbutton"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="10dp"
+                android:text="VIJAY HAZARE TROPHY 2022"
+                android:textColor="@color/white"
+                android:textStyle="bold"></TextView>
+
+            <!--       1st (1)-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/white"
+                    android:padding="3dp"
+                    android:src="@drawable/tn"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:background="@color/white"
+                    android:padding="5dp"
+                    android:text="284-7 (50.0)"
+                    android:textColor="#165A8F" />
+
+            </LinearLayout>
+
+            <!--       1st(2)-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/white"
+                    android:padding="3dp"
+                    android:src="@drawable/haryana"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:background="@color/white"
+                    android:padding="5dp"
+                    android:text="133-10 (28.3)"
+                    android:textColor="#165A8F" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="0dp"
+                android:text="TAMILNADU WON BY 151 RUNS"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:background="@drawable/round_result">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="210dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbutton"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="10dp"
+                android:text="FINAL - WOMEN'S ASIA CUP 2022"
+                android:textColor="@color/white"
+                android:textStyle="bold"></TextView>
+
+            <!--       1st (1)-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/white"
+                    android:padding="3dp"
+                    android:src="@drawable/sl"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:background="@color/white"
+                    android:padding="5dp"
+                    android:text="65-9 (20)"
+                    android:textColor="#165A8F" />
+
+            </LinearLayout>
+
+            <!--       1st(2)-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/white"
+                    android:padding="3dp"
+                    android:src="@drawable/bcci"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:background="@color/white"
+                    android:padding="5dp"
+                    android:text="71-2 (8.3)"
+                    android:textColor="#165A8F" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="0dp"
+                android:text="INDIA WOMEN WON BY 8 WICKETS"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:background="@drawable/round_result">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="210dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbutton"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="10dp"
+                android:text="52nd match, WOMEN'S BIG BASH 2022"
+                android:textColor="@color/white"
+                android:textStyle="bold"></TextView>
+
+            <!--       1st (1)-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/white"
+                    android:padding="3dp"
+                    android:src="@drawable/ms"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:background="@color/white"
+                    android:padding="5dp"
+                    android:text="179-8 (20)"
+                    android:textColor="#165A8F" />
+
+            </LinearLayout>
+
+            <!--       1st(2)-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/white"
+                    android:padding="3dp"
+                    android:src="@drawable/ps"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:background="@color/white"
+                    android:padding="5dp"
+                    android:text="173-7 (20)"
+                    android:textColor="#165A8F" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="0dp"
+                android:text="MELBOURNE STARS WOMEN WON BY 6 RUNS"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:background="@drawable/round_result">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="210dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbutton"
+            android:orientation="vertical">
+
+            <!--       1st (1)-->
+
+            <TextView
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="10dp"
+                android:text="3rd T20I, IRELAND WOMEN TOUR OF PAKISTAN"
+                android:textColor="@color/white"
+                android:textStyle="bold"></TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/white"
+                    android:padding="3dp"
+                    android:src="@drawable/ireland"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:background="@color/white"
+                    android:padding="5dp"
+                    android:text="167-4 (20)"
+                    android:textColor="#165A8F" />
+
+            </LinearLayout>
+
+            <!--       1st(2)-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/white"
+                    android:padding="3dp"
+                    android:src="@drawable/pcb"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:background="@color/white"
+                    android:padding="5dp"
+                    android:text="133-10 (18.5)"
+                    android:textColor="#165A8F" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="0dp"
+                android:text="IRELAND WOMEN WON BY 34 RUNS"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:background="@drawable/round_result">
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".more"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="53dp"
+            android:layout_height="64dp"
+            android:src="@drawable/more">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/bold"
+            android:text="MORE"
+            android:textSize="29dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_for_settings"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:paddingRight="10dp"
+        android:background="@drawable/round_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_baseline_settings_suggest_24">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SETTINGS"
+            android:layout_marginLeft="10dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/bold"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_for_latest_update"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:paddingRight="10dp"
+        android:background="@drawable/round_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_baseline_newspaper_24">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LATEST UPDATE"
+            android:layout_marginLeft="10dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/bold"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_for_login"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:paddingRight="20dp"
+        android:background="@drawable/round_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_baseline_login_24">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:layout_marginLeft="10dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/bold"></TextView>
+
+    </LinearLayout>
+
+</LinearLayout>
